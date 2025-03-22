@@ -1,0 +1,258 @@
+ *{
+    margin: 0px;
+    font-family: Arial;
+
+ }
+ body{
+    background-color: black;
+ }
+ .headings{
+    display: flex;
+    justify-content: space-between;
+ }
+ .head1{
+   color: red;
+   font-weight: 600;
+   font-size: 2rem;
+   margin-left: 40px;
+   margin-top: 40px;    
+ }
+#icon1{
+    color: aliceblue;
+    height: 10px;
+}
+.head2{
+   margin-right: 20px;
+}
+ .head21{
+    height:40px ;
+    width:120px ;
+    border-radius: 4px;
+
+ }
+ .head3{
+    margin-left: 10px;
+    margin-top:40px ;
+    background-color: rgb(205, 3, 3);
+    height:35px ;
+    width: 80px;
+    border-radius: 2px;
+    color: white;
+    font-weight: bolder;
+
+ }
+ .main{
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+ }
+ .main1{
+    font-size: 30px;
+    font-weight: 900;
+ }
+ .main2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+ }
+ .main-signin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .email{
+    margin-top: 20px;
+    width: 400px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: white;
+ }
+ .main6{
+    margin-top: 20px;
+    width: 200px;
+    height:60px;
+    background-color:rgb(205, 3, 3);
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 4px;
+ }
+ .line{
+    margin-top: 100px;
+    height: 10px;
+    color: white;
+    border: 10px solid red;
+    border-color: hwb(341 25% 5%) transparent transparent;
+    border-radius: 50%;
+
+
+ }
+  .num{
+   font-size: 100px;
+   color: aliceblue;
+  }
+
+.img-section{
+ display: flex;
+
+ /* background-color: #fff; */
+
+ overflow-x: scroll;
+ overflow-y: hidden;
+ max-height: 500px;
+ scrollbar-width: 500px;
+ width: 70rem;
+ margin: auto;
+ border-radius: 50px;
+ margin-bottom: 20px;
+
+}
+.images{
+   width: 300px;
+   height: 300px;
+   margin: 10px;
+   border: 1px solid transparent;
+}
+.img22{
+   width: 210px;
+   border-radius: 20px;
+}
+.sub-title{
+   color:white;
+   font-size: large;
+   margin-left: 100px;
+   margin-top: 70px;
+}
+.boxes{
+   display: flex;
+   margin:10px 80px 0 80px;
+
+}
+.box1{
+   color: white;
+   border: 1px solid transparent;
+   padding: 10px;
+   background-color: rgba(30, 30, 65, 0.258);
+   margin: 10px;
+   width: 300px;
+   height: 270px;
+   text-align: center;
+   border-radius: 20px;
+   background: linear-gradient(135deg, rgba(58, 58, 240, 0.258),hsl(351, 27%, 27%));
+
+}
+.mini-head{
+   margin: 50px;
+}
+.sub-title2{
+   margin-top: 20px;
+   margin-left: 250px;
+   margin-bottom: 20px;
+   color: white;
+}
+.m1{
+   margin-bottom: 10px;
+}
+
+.mini-headings{
+   margin-left: 250px;
+
+}
+.mini1{
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border: 2px solid rgb(70, 54, 54);
+   height: 20px;
+  padding: 30px;
+  width: 1000px;
+  margin-bottom: 10px;
+  background: linear-gradient(135deg, rgba(58, 58, 240, 0.258),hsl(351, 27%, 27%));
+
+}
+.mini1:hover{
+   cursor: pointer;
+   border: 1px solid white;
+
+}
+.plus{
+   color: white;
+   font-size: 40px;  
+}
+.sub-title3{
+   color: white;
+   margin-top: 50px;
+   text-align: center;
+   font-weight: 100;
+}
+.main-signin2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.email2{
+   margin-top: 20px;
+   width: 600px;
+   height: 65px;
+   background-color: transparent;
+   border: 1px solid lightcyan;
+   border-radius: 4px;
+   margin-right: 10px;
+   color: white;
+   padding-left: 40px;
+}
+.last{
+   margin-top: 20px;
+   width: 300px;
+   height:60px;
+   background-color:rgb(205, 3, 3);
+   color: white;
+   font-size: larger;
+   font-weight: bolder;
+   border-radius: 4px;
+}
+.sub-title5{
+   color: aliceblue;
+   margin-top: 80px;
+   margin-bottom: 10px;
+   margin-left: 100px;
+}
+.footer{
+   color: aliceblue;
+   margin: 50px;
+   padding: 10px;
+  
+}
+.foot1{
+   display: flex;
+   justify-content: space-evenly;
+   align-content: center;
+}
+ul li{
+   margin-bottom: 10px;
+   list-style:none ;
+   text-decoration: underline;
+   font-weight: 10px;
+   color: grey;
+}
+#lan{
+   width: 150px;
+   height:40px ;
+   margin-left: 100px;
+   margin-bottom: 10px;
+   background-color: transparent;
+   color: white;
+   border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
